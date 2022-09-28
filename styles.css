@@ -1,0 +1,129 @@
+html, body {height: 98%;
+min-width: 400px;
+background-color: #92D1B4;}
+
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Cooper, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Cooper, 'Trebuchet MS', sans-serif;
+    
+}
+
+p{
+    font-size: small;
+    color: white;
+}
+
+h3{
+    margin: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Cooper, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    height: fit-content;
+}
+
+.kanto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Cooper, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    color: white;
+    border: 3x;
+    transform: rotate(-90deg);
+    padding: 30px;
+
+}
+
+.container{
+    width: 100%;
+    height: 98%;
+    flex-flow: column;
+    justify-content: space-between;
+    align-content: space-between;
+    border: 3x;
+    display: flex;
+    
+}
+
+.parent1{
+    padding-left: 2%;
+}
+
+.parent2{
+    border: 3x;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.bigparent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    width: 13%;
+    display: flex;
+}
+
+.tinydiv
+{
+    margin: auto;
+    height:auto;
+}
+
+.pokemon{
+    width: 44%;
+    justify-content: center;
+}
+
+.stats
+{
+    width: 41%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 1%;
+}
+
+.inner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat1{
+    padding: 4px;
+    width: 70%;
+    height: 13%;
+}
+.stat2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4px;
+    width: 70%;
+    height: 27%;
+    align-content: flex-start;
+
+}
+
+.data
+{
+    padding: 4px;
+    margin: 5px;
+    background-color: #F9F9F9;
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-radius: 10%;
+    font-size: small;
+    color: #575757;
+
+}
